@@ -1,4 +1,3 @@
-import { SpeedInsights } from "@vercel/speed-insights/next"
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
@@ -8,6 +7,10 @@ import { createHtmlPlugin } from 'vite-plugin-html';
 // https://vitejs.dev/config/
 export default defineConfig({
   base: CONFIG.base || '/',
+  build: {
+    outDir: 'dist',
+    sourcemap: false,
+  },
   plugins: [
     react(),
     createHtmlPlugin({
@@ -34,7 +37,7 @@ export default defineConfig({
           VitePWA({
             registerType: 'autoUpdate',
             workbox: {
-              navigateFallback: undefined,
+              navigateFallback: '/index.html',
             },
             includeAssets: ['logo.png'],
             manifest: {
