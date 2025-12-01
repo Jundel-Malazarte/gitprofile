@@ -398,4 +398,8 @@ interface Config {
   enablePWA?: boolean;
 }
 
-declare const CONFIG: Config;
+declare global {
+  var CONFIG: Config;
+}
+
+export {};
