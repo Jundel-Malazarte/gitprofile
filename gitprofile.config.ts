@@ -80,19 +80,29 @@ const CONFIG = {
       'https://www.canva.com/design/DAGr7PDxqK4/jNSv_f1KSuxcW3N5EiXsaw/edit?continue_in_browser=true', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'JavaScript',
+    'JaavaScript',
+    'Java',
+    'Python',
+    'HTML',
+    'CSS',
+    'ASP.net',
+    'C, C++',
     'React.js',
-    'Next.js',
     'TypeScript',
+    'Next.js',
+    'Vite',
     'MySQL',
+    'Sqlite',
     'PostgreSQL',
     'Git',
-    'GitLab',
+    'Npm',
+    'Apache',
     'Java',
     'Python',
     'Tailwind CSS',
     'Bootstrap',
+    'Flutter',
+    'C#'
   ],
   experiences: [
     {
