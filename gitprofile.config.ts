@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['jundel-malazarte/gitprofile', 'jundel-malazarte/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['jundel-malazarte/gitprofile', 'jundel-malazarte/intern-hours-tracker'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,17 +33,17 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Hour Tracker App',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'A simple web app to help my classmates and other students keep track of the hours they worked during their internships',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://hours-tracker-intern.vercel.app/',
         },
         {
-          title: 'Project Name',
+          title: 'Read Scape Books',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'A web app for reading books and managing your reading list, with a focus on accessibility.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
@@ -51,6 +51,7 @@ const CONFIG = {
       ],
     },
   },
+
   seo: { title: 'Portfolio of Jundel Malazartes', description: '', imageURL: '' },
   social: {
     linkedin: 'https://www.linkedin.com/in/jundel-malazarte-98a8b4257/',
@@ -61,7 +62,7 @@ const CONFIG = {
     instagram: 'https://www.instagram.com/jundelmalazarte/',
     reddit: '',
     threads: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: '', 
     udemy: '',
     dribbble: '',
     behance: '',
@@ -111,10 +112,10 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'UX / UI Design Specialization',
+      body: '4th Place - University of Cebu Main Campus, PSITS',
+      year: 'March 2023',
+      link: '',
     },
   ],
   educations: [
@@ -224,11 +225,11 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
+  footer: `Made with Dev <a 
       class="text-primary" href="https://github.com/jundel-malazarte/"
       target="_blank"
       rel="noreferrer"
-    >Jundel Malazarte</a> and ❤️`,
+    >Jundel Malazarte</a>`,
 
   enablePWA: true,
 };
