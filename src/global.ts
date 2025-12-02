@@ -1,11 +1,11 @@
-interface Github {
+export interface Github {
   /**
    * GitHub org/user name
    */
   username: string;
 }
 
-interface GitHubProjects {
+export interface GitHubProjects {
   /**
    * Display GitHub projects?
    */
@@ -66,7 +66,7 @@ interface GitHubProjects {
   };
 }
 
-interface ExternalProjects {
+export interface ExternalProjects {
   /**
    * Header
    */
@@ -83,13 +83,13 @@ interface ExternalProjects {
   }[];
 }
 
-interface Projects {
+export interface Projects {
   github?: GitHubProjects;
 
   external?: ExternalProjects;
 }
 
-interface SEO {
+export interface SEO {
   /**
    * Meta title
    */
@@ -106,7 +106,7 @@ interface SEO {
   imageURL?: string;
 }
 
-interface Social {
+export interface Social {
   /**
    * LinkedIn
    */
@@ -208,14 +208,14 @@ interface Social {
   discord?: string;
 }
 
-interface Resume {
+export interface Resume {
   /**
    * Resume file url
    */
   fileUrl?: string;
 }
 
-interface Experience {
+export interface Experience {
   company?: string;
   position?: string;
   from: string;
@@ -223,21 +223,21 @@ interface Experience {
   companyLink?: string;
 }
 
-interface Certification {
+export interface Certification {
   body?: string;
   name?: string;
   year?: string;
   link?: string;
 }
 
-interface Education {
+export interface Education {
   institution?: string;
   degree?: string;
   from: string;
   to: string;
 }
 
-interface Publication {
+export interface Publication {
   title: string;
   conferenceName?: string;
   journalName?: string;
@@ -246,14 +246,14 @@ interface Publication {
   description?: string;
 }
 
-interface GoogleAnalytics {
+export interface GoogleAnalytics {
   /**
    * GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
    */
   id?: string;
 }
 
-interface Hotjar {
+export interface Hotjar {
   /**
    * Hotjar id
    */
@@ -265,7 +265,7 @@ interface Hotjar {
   snippetVersion?: number;
 }
 
-interface Blog {
+export interface Blog {
   /**
    * medium | dev
    */
@@ -284,7 +284,7 @@ interface Blog {
   limit?: number;
 }
 
-interface ThemeConfig {
+export interface ThemeConfig {
   /**
    * Default theme
    */
@@ -311,7 +311,7 @@ interface ThemeConfig {
   themes?: Array<string>;
 }
 
-interface Config {
+export interface Config {
   /**
    * GitHub config
    */

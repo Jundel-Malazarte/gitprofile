@@ -1,7 +1,6 @@
 import React from 'react';
 import { hotjar } from 'react-hotjar';
 import { LOCAL_STORAGE_KEY_NAME } from '../constants';
-
 import { DEFAULT_THEMES } from '../constants/default-themes';
 import colors from '../data/colors.json';
 import {
@@ -9,6 +8,7 @@ import {
   SanitizedHotjar,
   SanitizedThemeConfig,
 } from '../interfaces/sanitized-config';
+import type { Config, Experience, Certification, Publication } from '../global';
 
 export const isDarkishTheme = (appliedTheme: string): boolean => {
   return ['dark', 'halloween', 'forest', 'black', 'luxury', 'dracula'].includes(
@@ -89,7 +89,7 @@ export const getSanitizedConfig = (
       skills: config?.skills || [],
       experiences:
         config?.experiences?.filter(
-          (experience) =>
+          (experience: Experience) =>
             experience.company ||
             experience.position ||
             experience.from ||
@@ -97,14 +97,14 @@ export const getSanitizedConfig = (
         ) || [],
       certifications:
         config?.certifications?.filter(
-          (certification) =>
+          (certification: Certification) =>
             certification.year || certification.name || certification.body,
         ) || [],
       educations:
         config?.educations?.filter(
           (item) => item.institution || item.degree || item.from || item.to,
         ) || [],
-      publications: config?.publications?.filter((item) => item.title) || [],
+      publications: config?.publications?.filter((item: Publication) => item.title) || [],
       googleAnalytics: {
         id: config?.googleAnalytics?.id,
       },

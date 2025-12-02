@@ -2,10 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './assets/index.css';
 import GitProfile from './components/gitprofile.tsx';
-
-declare global {
-  var CONFIG: Record<string, unknown>;
-}
+import './global';
 
 const rootElement = document.getElementById('root');
 
