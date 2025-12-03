@@ -77,7 +77,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.canva.com/design/DAGr7PDxqK4/jNSv_f1KSuxcW3N5EiXsaw/edit?continue_in_browser=true', // Empty fileUrl will hide the `Download Resume` button.
+      'https://www.canva.com/design/DAG6V4asgK8/S_pqGWV2yCBtwiON-w8qFQ/view?utm_content=DAG6V4asgK8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h11bd880263', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'JaavaScript',
@@ -241,7 +241,7 @@ const CONFIG = {
       rel="noreferrer"
     >Jundel Malazarte</a>`,
 
-  enablePWA: true,
+  enablePWA: false,
 };
 
 export default CONFIG;
