@@ -38,12 +38,17 @@ export default defineConfig({
             registerType: 'autoUpdate',
             workbox: {
               navigateFallback: '/index.html',
+              cleanupOutdatedCaches: true,
+              skipWaiting: true,
             },
             includeAssets: ['logo.png'],
             manifest: {
               name: 'Portfolio',
               short_name: 'Portfolio',
               description: 'Personal Portfolio',
+              theme_color: '#ffffff',
+              background_color: '#ffffff',
+              display: 'standalone',
               icons: [
                 {
                   src: 'logo.png',
