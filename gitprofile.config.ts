@@ -41,9 +41,8 @@ const CONFIG = {
           link: 'https://hours-tracker-intern.vercel.app/',
         },
         {
-          title: 'Read Scape Books',
-          description:
-            'A web app for reading books and managing your reading list, with a focus on accessibility.',
+          title: 'CropCraft - Guidance app for farmers',
+          description:'A user-friendly mobile app that guideds farmers on how to grow their crops.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
@@ -122,9 +121,9 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'UX / UI Design Specialization',
-      body: '4th Place - University of Cebu Main Campus, PSITS',
-      year: 'March 2023',
+      name: 'UX/UI Certificate of Completion, Responsive Web Design Certificate, PicoCTF Competition & Certification, Comprehensive Introduction to Front-End Engineering',
+      body: 'University of Cebu Main Campus, PSITS, FreeCodeCamp',
+      year: 'September 2021 - May 2025',
       link: '',
     },
   ],
