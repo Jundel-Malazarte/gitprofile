@@ -82,10 +82,12 @@ const CONFIG = {
     'JaavaScript',
     'Java',
     'Python',
+    'PHP',
     'HTML',
     'CSS',
     'ASP.net',
     'C, C++',
+    'C#',
     'React.js',
     'TypeScript',
     'Next.js',
@@ -101,7 +103,7 @@ const CONFIG = {
     'Tailwind CSS',
     'Bootstrap',
     'Flutter',
-    'C#'
+
   ],
   experiences: [
     {
@@ -153,7 +155,7 @@ const CONFIG = {
       conferenceName: '',
       journalName: 'CropCraft - Mobile Application for Farmers Guidance',
       authors: 'Dujali Clyde, Friolo Francisco Jr., Gabutin Ryan, Lacao Doel Nino, Malazarte Jundel',
-      link: 'https://docs.google.com/document/d/15EaOkjbk3sy6g5DvImv-EWuu3ulvQhUi/edit?usp=sharing&ouid=106581697157288287471&rtpof=true&sd=true',  
+      link: '',  
       description:
         'CropCraft is a mobile application that provides farmers with guidance on crop management, offering data on soil texture, weather forecasts, and pest control strategies. The app also provides a detailed farmers booklet that covers aspects such as soil preparation, planting techniques, and early pest management, aiming to improve crop yields and overall productivity.',
     },
@@ -164,7 +166,7 @@ const CONFIG = {
       authors: 'Malazarte, Jundel', 
       link: 'https://hours-tracker-intern.vercel.app/',  
       description:
-        'A simple web app to help my classmates and other students keep track of the hours they worked during their internships',
+        'Intern Hours Tracker is a streamlined web application designed to efficiently track and manage On-the-Job Training (OJT) hours. Built with modern technologies, it automatically calculates progress and provides a seamless experience across desktop and mobile devices.',
     }, 
   ],
   // Display articles from your medium or dev account. (Optional)
