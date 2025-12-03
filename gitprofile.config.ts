@@ -149,23 +149,23 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'ENHANCING AGRICULTURAL EFFICIENCY THROUGHOUT A USER-FRIENDLY FARMER APPLICATION FOR CROP MANAGEMENT AND MARKET',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'Jundel, Malazarte, Malazarte',
-      link: 'https://example.com',  
+      journalName: 'CropCraft - Mobile Application for Farmers Guidance',
+      authors: 'Dujali Clyde, Friolo Francisco Jr., Gabutin Ryan, Lacao Doel Nino, Malazarte Jundel',
+      link: 'https://docs.google.com/document/d/15EaOkjbk3sy6g5DvImv-EWuu3ulvQhUi/edit?usp=sharing&ouid=106581697157288287471&rtpof=true&sd=true',  
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'CropCraft is a mobile application that provides farmers with guidance on crop management, offering data on soil texture, weather forecasts, and pest control strategies. The app also provides a detailed farmers booklet that covers aspects such as soil preparation, planting techniques, and early pest management, aiming to improve crop yields and overall productivity.',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: '',
-      link: 'https://example.com',
+      title: 'INTERN HOURS TRACKER - WEB APPLICATION',
+      conferenceName: '',
+      journalName: 'Intern Hours Tracker Web Application',
+      authors: 'Malazarte, Jundel', 
+      link: 'https://hours-tracker-intern.vercel.app/',  
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
+        'A simple web app to help my classmates and other students keep track of the hours they worked during their internships',
+    }, 
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
