@@ -45,8 +45,48 @@ const CONFIG = {
           description:'A user-friendly mobile app that guideds farmers on how to grow their crops.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://github.com/Jundel-Malazarte/CropCraft-App.git',
         },
+        {
+          title: 'Library Management System',
+          description:
+            'A web-based application to manage book inventories, member registrations, and borrowing/returning of books in a library.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://github.com/Jundel-Malazarte/Library-Management-System.git',
+        },
+        {
+          title: 'Online DTR System',
+          description:'A web-based application that helps employees track their daily time records.',
+          imageUrl:'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://github.com/Jundel-Malazarte/Daily-time-record.git',
+        },
+        {
+          title: 'Read Scape Books',
+          description:'A web application that allows users to browse and read a collection of books online.',
+          imageUrl:'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://github.com/Jundel-Malazarte/Read-Scape-Books.git',
+        },
+        {
+          title: 'Weather App Javascript',
+          description:'A web application that provides weather forecasts and information using JavaScript.',
+          imageUrl:'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://github.com/Jundel-Malazarte/Weather-app-javaScript.git',
+        },
+        {
+          title: 'Student Attendance System',
+          description:'A web-based application to manage and track student attendance records efficiently.',
+          imageUrl:'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://github.com/Jundel-Malazarte/Student-Attendance-System-Flask.git',
+        },
+        {
+          title: 'Line Follower Robot',
+          description:'A simple line follower robot using Arduino that can follow a black line on a white surface.',
+          imageUrl:'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: 'https://github.com/Jundel-Malazarte/LineFollowerRobot.git',
+        }
+
+        // You can add more projects here
       ],
     },
   },
@@ -79,7 +119,7 @@ const CONFIG = {
       'https://www.canva.com/design/DAG6V4asgK8/S_pqGWV2yCBtwiON-w8qFQ/view?utm_content=DAG6V4asgK8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h11bd880263', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'JaavaScript',
+    'JavaScript',
     'Java',
     'Python',
     'PHP',
@@ -88,22 +128,63 @@ const CONFIG = {
     'ASP.net',
     'C, C++',
     'C#',
-    'React.js',
     'TypeScript',
+    'React',
+    'Java',
+    'Python',
+    'Flutter',
+    // Frameworks and Libraries
+    'Tailwind CSS',
+    'Bootstrap',
+    'React.js',
     'Next.js',
+    'Vue.js',
+    'Angular',
+    'Django',
+    'Laravel',
+    'ASP.NET Core',
     'Vite',
+    'Node.js',
+    'Express.js',
+    'Flask',
+    'Npm',
+    'Apache',
+    // SQL Databases
     'MySQL',
     'Sqlite',
     'PostgreSQL',
+    'Microsoft SQL Server',
+    // Tools and Technologies
     'Git',
-    'Npm',
-    'Apache',
-    'Java',
-    'Python',
-    'Tailwind CSS',
-    'Bootstrap',
-    'Flutter',
+    'GitHub',
+    'Windows',
+    'Linux',
+    'MacOS',
+    'Amazon Web Services (AWS)',
+    'Google Cloud Platform (GCP)',
+    'SupaBase',
+    'Vercel',
+    'Netlify',
+    'Microsoft Azure',
+    'GitLab',
+    // IDEs
+    'Visual Studio Code',
+    'Visual Studio',
+    'IntelliJ IDEA',
+    'PyCharm',
+    'Eclipse',
+    'Sublime Text',
+    'Dev-C++',
+    'CodeBlocks IDE',
+    'Quincy 2005',
+    'JGraso',
+    'Arduino IDE',
+    // Editing Softwares
+    'Adobe Photoshop',
+    'Figma',
+    'Canva',
 
+    // You can add more skills here
   ],
   experiences: [
     {
