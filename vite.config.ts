@@ -6,7 +6,11 @@ import { createHtmlPlugin } from 'vite-plugin-html';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: CONFIG.base || '/',
+  // 🚀 UPDATE: The 'base' is now explicitly set to '/' (the root path).
+  // This ensures the application and its assets load correctly on Vercel
+  // or any standard domain root, overriding any value in CONFIG.base
+  // that might point to a subdirectory (like '/gitprofile/').
+  base: '/',
   build: {
     outDir: 'dist',
     sourcemap: false,
@@ -20,8 +24,7 @@ export default defineConfig({
           metaDescription: CONFIG.seo.description,
           metaImageURL: CONFIG.seo.imageURL,
           googleAnalyticsScript: CONFIG.googleAnalytics.id
-            ? `<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=${CONFIG.googleAnalytics.id}"></script>
+            ? `<script async src="https://www.googletagmanager.com/gtag/js?id=${CONFIG.googleAnalytics.id}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
