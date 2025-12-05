@@ -98,7 +98,7 @@ const CONFIG = {
     mastodon: '',
     researchGate: '',
     facebook: 'https://www.facebook.com/malazartejundel29',
-    instagram: 'https://www.instagram.com/jundelmalazarte/',
+    instagram: 'https://www.instagram.com/jundelmalazarte',
     reddit: '',
     threads: '',
     youtube: '', 
