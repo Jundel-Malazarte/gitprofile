@@ -106,7 +106,7 @@ const CONFIG = {
     behance: '',
     medium: '',
     dev: 'Jundel Malazarte',
-    stackoverflow: 'https://stackoverflow.com/users/31901832/jandel', // example: '1/jeff-atwood'
+    stackoverflow: '31901832/jundel', // example: '1/jeff-atwood'
     discord: '',
     telegram: '',
     website: 'https://www.jundelmalazarte.com',
