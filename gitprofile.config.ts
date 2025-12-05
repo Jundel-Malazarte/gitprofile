@@ -93,12 +93,11 @@ const CONFIG = {
 
   seo: { title: 'Portfolio of Jundel Malazartes', description: '', imageURL: '' },
   social: {
-    linkedin: 'https://www.linkedin.com/in/jundel-malazarte-98a8b4257/',
-    x: 'jundel_malazarte',
+    linkedin: 'jundel-malazarte-98a8b4257/',
     mastodon: '',
     researchGate: '',
-    facebook: 'https://www.facebook.com/malazartejundel29',
-    instagram: 'https://www.instagram.com/jundelmalazarte',
+    facebook: 'malazartejundel29',
+    instagram: 'jundelmalazarte',
     reddit: '',
     threads: '',
     youtube: '', 
